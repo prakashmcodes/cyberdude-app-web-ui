@@ -1,11 +1,16 @@
-function testimnial() {
+export default function TestimonialSection() {
   return (
     <>
       <section className="px-4 py-16 bg-black">
         <h1 className="text-2xl sm:text-3xl text-center font-semibold text-white ">
           What People Think
-          <span  className="bg-linear-to-r from-orange-300 via-amber-400 to-orange-600
-         bg-clip-text text-transparent"> About us</span>
+          <span
+            className="bg-linear-to-r from-orange-300 via-amber-400 to-orange-600
+         bg-clip-text text-transparent"
+          >
+            {" "}
+            About us
+          </span>
         </h1>
         <p className=" text-[#D9D9D9] text-center mt-10 max-w-3xl mx-auto">
           “A great course review highlights instructor engagement (clear
@@ -51,5 +56,3 @@ function testimnial() {
     </>
   );
 }
-
-export default testimnial;

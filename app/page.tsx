@@ -1,13 +1,12 @@
 import SiteHeader from "@/components/ui/site-header";
 import AboutMentors from "@/components/ui/about-mentor";
 import SiteSkills from "@/components/ui/site-skills";
-import Testimonial from "@/components/ui/testimonial";
+import Testimonial from "@/components/ui/testimonial-section";
 
 export default function Home() {
   return (
     <div>
       <SiteHeader />
-
 
       <main className="bg-black mt-20">
         {/* Hero Section */}
@@ -87,13 +86,11 @@ export default function Home() {
 
         {/* about mentors section */}
         <AboutMentors />
-        <SiteSkills/>
+        <SiteSkills />
 
-      
         {/* testimonial */}
-         <Testimonial />
+        <Testimonial />
       </main>
-     
     </div>
   );
 }
