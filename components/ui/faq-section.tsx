@@ -14,7 +14,7 @@ const FaqSection = () => {
   };
   return (
     <div>
-      <div className="mx-auto mt-8 pb-4 max-w-2xl px-4">
+      <div className="mx-auto mt-8 pb-10 max-w-2xl px-4">
         <div className="mb-12">
           <h1 className="text-5xl font-bold text-white mb-3">
             Frequently Asked Questions
@@ -47,7 +47,7 @@ const FaqSection = () => {
               </button>
 
               {showAnswer[index] && (
-                <div className="px-6 pb-5 pt-2 bg-white border-t border-indigo-100">
+                <div className="px-6 pb-3 pt-2 bg-white border-t rounded-xl border-indigo-100">
                   <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
                 </div>
               )}
